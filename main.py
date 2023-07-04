@@ -86,8 +86,6 @@ def led_blink(color):
         led = red_led
     elif color == 'green':
         led = green_led
-    else:
-        print(f"Error: Invalid color {color}")
         return
     led.value(1)
     utime.sleep(0.75)
